@@ -12,8 +12,8 @@ body {
 }
 
 #app {
-  width: 100vw;
-  height: 100vh;
+  max-width: 100vw;
+  max-height: 100vh;
   background: #343541;
 
   display: flex;
