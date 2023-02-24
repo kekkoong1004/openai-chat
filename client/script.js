@@ -70,7 +70,7 @@ const handleSubmit = async e => {
   console.log(data.get('prompt'));
   // fetch data from server -> bot's response
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://openai-chatbox.herokuapp.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
